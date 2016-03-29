@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-        <title>Button creating</title>
+        <title>Required input</title>
     </head>
     <style>
         .red-text {
@@ -28,19 +28,20 @@
             width: 100px;
         }
     </style>
+
     <body>
         <h2 class="red-text">CatPhotoApp</h2>
         <p>Click here for <a href="#">cat photos</a>.</p>
-
         <a href="#">
             <img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat">
         </a>
+
         <p>Things cats love:</p>
         <ul>
             <li>cat nip</li>
             <li>laser pointers</li>
             <li>lasagna</li>
-            </ul>
+        </ul>
         <p>Top 3 things cats hate:</p>
         <ol>
             <li>flea treatment</li>
@@ -48,9 +49,9 @@
             <li>other cats</li>
         </ol>
         <form action="/submit-cat-photo">
-            <input type="text" placeholder="cat photo URL">
+            <input type="text" required="" placeholder="cat photo URL">
             <button type="submit">Submit</button>
         </form>
 
-    </body>    
+    </body>
 </html>
