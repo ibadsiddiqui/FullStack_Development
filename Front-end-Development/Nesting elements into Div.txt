@@ -6,7 +6,7 @@ Just like any other non-self-closing element, you can open a div element with <d
 and close it on another line with </div>.
 
 Try putting your opening div tag above your 
-"Things cats love" p element and your closing div tag after your closing ol tag so that both of your lists are within one div.
+"Things cats love" p element and your closing div tag after your closing "ol" tag so that both of your lists are within one div.
 
 Nest your 
 "Things cats love" and "Things cats hate" 
