@@ -1,0 +1,3 @@
+Bootstrap has its own styles for button elements, which look much better than the plain HTML ones.
+
+Create a new button element below your large kitten photo. Give it the class btn and the text of "Like".
