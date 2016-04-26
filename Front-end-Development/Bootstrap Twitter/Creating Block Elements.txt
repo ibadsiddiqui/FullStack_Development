@@ -1,0 +1,14 @@
+Normally, your button elements are only as wide as the text that they contain. 
+By making them block elements, your button will stretch to 
+fill your page's entire horizontal space and any elements following 
+it will flow onto a "new line" below the block.
+
+This image illustrates the difference between inline elements and 
+block-level elements:Normally, your button elements are only as wide 
+as the text that they contain. By making them block elements, 
+your button will stretch to fill your page's entire horizontal 
+space and any elements following it will flow onto a "new line" below the block.
+
+Note that these buttons still need the btn class.
+
+Add Bootstrap's btn-block class to your Bootstrap button.
