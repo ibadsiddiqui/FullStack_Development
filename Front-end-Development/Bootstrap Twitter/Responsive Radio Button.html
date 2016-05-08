@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">  
+ 
+    <title>Responsive radio buttons</title>
+</head>
+<style>
+        h2{
+            font-family: Lobster,monospace;
+        }
+        .thick-green-border{
+            border-style: solid;
+            border-width: 50px;
+            border-color: green;
+            border-radius: 10%;
+        }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-8">
+                <h2 class="text-primary text-center">CatPhotoApp</h2>
+            </div>
+            <div class="col-xs-4">
+                <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat"></a>
+            </div>
+        </div>
+        <img src="https://bit.ly/fcc-running-cats" class="img-responsive">
+        <div class="row">
+            <div class="col-xs-4">
+                <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button>
+            </div> 
+        </div>
+        <p>Things cat <span class="text-danger">love: </span></p>
+        <ul>
+            <li>Cat Nip</li>
+            <li>Laser Pointer</li>
+            <li>Lasagna</li>
+        </ul>
+        <p>Things cat hate:</p>
+        <ol>
+            <li>Flea Threatement</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ol>
+        <form class="/submit-cat-photo">
+            <div class="row">
+                <div class="col-xs-6">
+                    <label for="">
+                        <input type="radio" name="indoor-outdoor" value=""> Indoor
+                    </label>
+                </div>
+                <div class="col-xs-6">
+                    <label for="">
+                        <input type="radio" name="indoor-outdoor" value="">Outdoor
+                    </label>
+                </div>
+                <label for="">
+                    <input type="checkbox" name="personality" value="">Loving
+                </label>
+                <label for="">
+                    <input type="checkbox" name="personality" value="">Lazy
+                </label>
+                <label for="">
+                    <input type="checkbox" name="personality" value="">Crazy
+                </label>
+                <input type="text" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
