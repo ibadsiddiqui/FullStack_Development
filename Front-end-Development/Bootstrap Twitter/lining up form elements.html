@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		
+	<title>Form Elements</title>
+	<style type="text/css">
+		h2{
+			font-family: Lobster, monospace;
+		}
+		.thick-green-border{
+			border-width: 10px;
+			border-color: green;
+			border-style: solid;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-8">
+				<h2 class="text-primary text-center">CatPhotoApp</h2>
+			</div>
+			<div class="col-xs-4">
+				<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" class="igmg-responsive thick-green-border"></a>
+			</div>
+		</div>
+		<div class="row">
+	  	  <div class="col-xs-4">
+	    	  <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+	    	</div>
+	    	<div class="col-xs-4">
+	      		<button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
+	    	</div>
+	    	<div class="col-xs-4">
+	      		<button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button>
+	    	</div>
+	  </div>
+  
+		<img src="https://bit.ly/fcc-running-cats" class="img-responsive">
+		<p>Things cat <span class="text-danger">love</span>:</p>
+		<ul>
+			<li>Laser Pointer</li>
+			<li>Lasagna</li>
+			<li>Cat Nip</li>
+		</ul>
+		<p>Top 3 things cat hate:</p>
+		<ol>
+			<li>Flea treatment</li>
+			<li>other cats</li>
+			<li>Thunder</li>
+		</ol>
+		<form action="/submit-cat-photo">
+			<div class="row">
+				<div class="col-xs-4">
+					<label><input type="radio" name="indoor-outdoor" >Indoor</label>
+				</div>
+				<div class="col-xs-4">
+					<label><input type="radio" name="indoor-outdoor">Outdoor</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">
+					<label><input type="checkbox" name="personality">Loving</label>
+				</div>
+				<div class="col-xs-4">
+					<label><input type="checkbox" name="personality">Lazy</label>
+				</div>
+				<div class="col-xs-4">
+					<label><input type="checkbox" name="personality">Crazy</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-7">
+					<input type="text" placeholder="Cat photo url" required>	
+				</div>
+				<div class="col-xs-5">
+					<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>Submit</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
