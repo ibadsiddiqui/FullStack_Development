@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta http="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">  
+    <title>Responive checkbox</title>
+    <style>
+        h2{
+            font-family: Lbster, monospace; 
+        }
+        .thick-green-border{
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-8">
+                <h2 class="text-primary text-center">CatPhotoApp</h2>
+            </div>
+            <div class="col-xs-4">
+                <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="-"></a>
+            </div>
+        </div>
+        <img src="https://bit.ly/fcc-running-cat" class="img-responsive" alt="">
+        <div class="row">
+            <div class="col-xs-4">
+                <button type="" class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button>
+            </div>
+            <div class="col-xs-4">
+                <button type="" class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>Info</button>
+            </div>
+            <div class="col-xs-4">
+                <button type="" class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+            </div>
+        </div>
+        <p>Things cat <span class="text-danger">Love:</span></p>
+        <ul>
+            <li>cat nip</li>
+            <li>Laser pointer</li>
+            <li>Lasagna</li>
+        </ul>
+        <p>Top 3 things cat hate:</p>
+        <ol>
+            <li>Flea treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ol>
+        <form action="/submit-cat-photo"> 
+            <div class="row">
+                <div class="col-xs-6">
+                    <label for="">
+                        <input type="radio" name="indoor-outdoor" value=""> Indoor
+                    </label>
+                </div>
+                <div class="col-xs-6">
+                    <label for="">
+                        <input type="radio" name="indoor-outdoor" value="">Outdoor
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                         <label for="">
+                             <input type="checkbox" name="personality" value="">Loving
+                         </label>
+                    </div>
+                    <div class="col-xs-4">
+                         <label for="">
+                             <input type="checkbox" name="personality" value="">Crazy
+                         </label>
+                    </div>
+                    <div class="col-xs-4">
+                         <label for="">
+                             <input type="checkbox" name="personality" value="">Crazy
+                         </label>
+                    </div>
+                </div>
+                <input type="text" placeholder="Cat photo url" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
