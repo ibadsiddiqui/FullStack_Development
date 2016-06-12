@@ -1,0 +1,10 @@
+Now you know three ways of targeting elements: by type: $("button"), 
+by class: $(".btn"), and by id $("#target1").
+
+Using .addClass(), add only one class at a time to the same element, three different ways:
+
+Add the animated class to all elements with type button.
+
+Add the shake class to all the buttons with class .btn.
+
+Add the btn-primary class to the button with id #target1.
