@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="../Bootstrap Twitter/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>Multiple jQueries</title>
+    <script>
+        $(document).ready(function() {
+            $("button").addClass("animated");
+            $(".btn").addClass("shake");
+            $("#target1").addClass("btn-primary");
+        });
+    </script>   
 </head>
 <body>
     <!-- Only change code above this line. -->
@@ -32,12 +40,5 @@
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function() {
-            $("button").addClass("animated");
-            $(".btn").addClass("shake");
-            $("#target1").addClass("btn-primary");
-        });
-    </script>   
 </body>
 </html>
