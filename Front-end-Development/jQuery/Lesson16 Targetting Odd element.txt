@@ -1,0 +1,12 @@
+You can also target all the even-numbered elements.
+
+Here's how you would target all the odd-numbered elements with 
+class target and give them classes:
+
+$(".target:odd").addClass("animated shake");
+
+Note that jQuery is zero-indexed, meaning that, counter-intuitively, :odd selects the second element, fourth element, and so on.
+
+Try selecting all the even-numbered elements and giving them the 
+classes of animated and shake.
+$(."target:even").adClass("animated shake");
