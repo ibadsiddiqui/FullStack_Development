@@ -3,10 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.js">
     <link rel="shotrcut icon" href="images/logo.png">
     <title>Portfolio</title>
 </head>
@@ -24,16 +21,17 @@
             <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#Who">Who I Am</a></li>
-                <li><a href="#What">WHAT I Am</a></li>
-                <li><a href="#How">How to Find Me</a></li>
+                <li><a href="#What">What I Am</a></li>
+                <li><a href="#How">How to find Me</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
             </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid bg-1 text-center">
+    <div class="container-fluid bg-1 text-center" id="Who">
         <div class="row">
-       <h3 class="col-xs-6 margin1" id="Who"> Who Am I? </br>  I'm an Adventurer, and yeah also a Web Developer</h3>
+       <h3 class="col-xs-6 margin1"> Who Am I? </br>  I'm an Adventurer, and yeah also a Web Developer</h3>
         <img src="images/pic1.jpg" alt="Web Developer" class="img-responsive img-circle col-lg-3 margin img1">
     </div>
     </div>
@@ -67,10 +65,10 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center">  
+    <div class="container-fluid text-center" >  
         <h3 class="margin">For Direct Contact:</h3>
         <p class="">If, by some how, you feel like directly contacting me, fill the following form.</p>
-        <form class="form-horizontal" role="form" action="ibad.html">
+        <form class="form-horizontal" role="form" id="Contact" action="index.html">
             <div class="form-group">
                 <label class="control-label col-sm-2" for="email">Email:</label>
                   <div class="col-sm-10">
@@ -100,7 +98,7 @@
         </form>
     </div>
     <footer class="container-fluid bg-4 text-center">
-        <p>Made with <i class="glyphicon text-primary glyphicon-headphones"></i> and <i class="glyphicon text-primary glyphicon-music"></i><br/> By <a href="mailto:ibadsiddiqui01@outlook.com" class="text-danger notHover">Ibad Siddiqui</a></p>
+        <p>Made with <img src="images/headphone.png" alt="headphones"> and <img src="images/music.png" alt=""><br/> By <a href="mailto:ibadsiddiqui01@outlook.com" class="text-danger notHover">Ibad Siddiqui</a></p>
     </footer>
 </body>
 </html>
