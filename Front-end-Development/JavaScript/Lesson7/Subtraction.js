@@ -1,0 +1,1 @@
+var difference = 12 - 0;
