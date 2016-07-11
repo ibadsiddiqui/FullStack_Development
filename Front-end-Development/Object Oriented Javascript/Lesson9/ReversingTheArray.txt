@@ -1,0 +1,45 @@
+Menulearn to code javascript at Free Code Camp logo
+Reverse Arrays with reverse
+You can use the reverse method to reverse the elements of an array.
+
+reverse is another array method that alters the array in place, but it also returns the reversed array.
+
+var myArray = [1, 2, 3];
+myArray.reverse();
+returns [3, 2, 1]
+
+Use reverse to reverse the array variable and assign it to newArray.
+
+Run tests (ctrl + enter)
+Reset	Help	Bug
+
+[7,6,5,4,3,2,1]
+
+You should reverse the array.
+You should use the reverse method.
+You should only be using reverse to modify array.
+
+
+.reverse()
+1
+​
+2
+var array = [1,2,3,4,5,6,7];
+3
+var newArray = [];
+4
+​
+5
+// Only change code below this line.
+6
+​
+7
+newArray = array.reverse();
+8
+​
+I also live dangerously.×
+Submit and go to my next challenge (ctrl + enter)
+
+Free Code Camp's Wiki
+
+
