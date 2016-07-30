@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#getMessage").on("click", function() {
+                $(".message").html("Here is the message of the clicked button");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h3>Cat Photo Finder</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-xs-12 well message">
+                The Message will come here
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <button type="submit" id="getMessage" class="btn btn-primary">Get Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
